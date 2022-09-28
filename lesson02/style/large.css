@@ -1,6 +1,6 @@
 
 * {
-    font-family: 'Gugi', sans-serif;
+    font-family: 'Abril Fatface', cursive;
 }
 
 html {
@@ -14,7 +14,7 @@ body {
 
 header {
     text-align: center;
-    background-color: seagreen;
+    background-color: ;
     border-radius: 0 0 10px 10px;
     color: white;
     padding: 1em;
@@ -41,14 +41,14 @@ section {
     overflow: hidden;
 }
 section * {
-    font-family: 'Ubuntu', sans-serif;
+     font-family: 'Abril Fatface', cursive;
 }
 h3 {
     margin: 0;
-    font-family: 'Gugi', sans-serif;
+     
     padding: 10px;
     /* text-align: center; */
-    background: seagreen;
+    background:rgb(95, 65, 65);
     color: white;
 }
 section > div {
@@ -70,7 +70,7 @@ section img {
 
 footer {
     text-align: center;
-    background-color: seagreen;
+    background-color:rgb(95, 65, 65);
     border-radius: 10px 10px 0 0;
     padding: 1em;
 }
