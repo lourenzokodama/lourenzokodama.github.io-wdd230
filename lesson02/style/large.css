@@ -14,9 +14,9 @@ body {
 
 header {
     text-align: center;
-    background-color: ;
+    background-color:rgb(95, 65, 65) ;
     border-radius: 0 0 10px 10px;
-    color:rgb(95, 65, 65);
+    color:black;
     padding: 1em;
 }
 h1 {
