@@ -49,7 +49,7 @@ h3 {
     padding: 10px;
     /* text-align: center; */
     background:rgb(95, 65, 65);
-    color: white;
+    color: black;
 }
 section > div {
     padding: 0 10px;
@@ -74,7 +74,7 @@ footer {
     border-radius: 10px 10px 0 0;
     padding: 1em;
 }
-#lst-updt {
+#time {
     padding-top: 5px;
     display: block;
     font-size: small;
