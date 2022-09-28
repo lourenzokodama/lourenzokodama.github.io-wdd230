@@ -36,7 +36,7 @@ main {
 }
 section {
     border-radius: 10px;
-    background-color: white;
+    background-color:rgb(95, 65, 65);
     border: solid 1px gray;
     overflow: hidden;
 }
