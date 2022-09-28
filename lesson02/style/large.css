@@ -4,7 +4,7 @@
 }
 
 html {
-    background-color:rgb(95, 65, 65);
+    background-color:white;
 }
 
 body {
@@ -64,7 +64,7 @@ section img {
     width: calc(100% - 2px);
     display: block;
     margin: 0 auto;
-    border: solid 1px gray;
+    border: solid 1px black;
     max-width: 320px;
 }
 
