@@ -1,2 +1,2 @@
 
-document.getElementById("time").innerHTML = "Last upddated:"+document.lastModified
+document.getElementById("time").innerHTML = "Last updated:"+document.lastModified
