@@ -199,9 +199,7 @@ html {
     padding: 0; /* 2 */
   }
   
-  [type="number"]::-webkit-outer-spin-button {
-    height: auto;
-  }
+  
    
   details {
     display: block;
