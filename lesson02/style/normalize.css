@@ -150,20 +150,13 @@ html {
   select { /* 1 */
     text-transform: none;
   }
-  
-
+ 
   button,
   [type="button"],
   [type="reset"],
   [type="submit"] {
-   
-  }
-  
-  
- {
-    border-style: none;
-    padding: 0;
-  }
+}
+
   /**
    * Correct the padding in Firefox.
    */
