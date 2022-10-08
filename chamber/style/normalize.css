@@ -9,7 +9,43 @@
   /**
    * Remove the margin in all browsers.
    */
-  
+  /* MAIN */
+main {
+  padding: 1.6rem;
+}
+
+/* PLACEHOLDER STYLES */
+.hero,
+.event,
+.weather,
+.news-release,
+.spotlights,
+.join {
+  border: 1px solid var(--color-secondary);
+  margin-bottom: 1.6rem;
+  padding: 1.6rem;
+}
+
+.hero div {
+  margin-bottom: 1.6rem;
+}
+
+.hero img {
+  width: 100%;
+  height: auto;
+}
+
+.join {
+  display: none;
+}
+
+.spotlights section {
+  border: 1px solid var(--color-secondary);
+}
+
+.spotlights section:last-child {
+  display: none;
+}
   body {
     margin: 0;
   }
