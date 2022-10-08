@@ -10,61 +10,8 @@
    * Remove the margin in all browsers.
    */
   /* MAIN */
- main {
-    display: grid;
-    gap: 1.6rem;
-    grid-template-areas:
-      "hero  hero  hero  hero"
-      "news  news  news  news"
-      "spot  spot  spot  spot"
-      "join  join  join  join"
-      "event event event weather";
-  }
-
-  .hero {
-    grid-area: hero;
-  }
-
-  .event {
-    grid-area: event;
-  }
-
-  .weather {
-    grid-area: weather;
-  }
-
-  .news-release {
-    grid-area: news;
-  }
-
-  .spotlights {
-    grid-area: spot;
-    display: flex;
-    gap: 1.6rem;
-
-/* PLACEHOLDER STYLES */
-.hero,
-.event,
-.weather,
-.news-release,
-.spotlights,
-.join {
-  border: 1px solid var(--color-secondary);
-  margin-bottom: 1.6rem;
-  padding: 1.6rem;
-}
-
-.hero div {
-  margin-bottom: 1.6rem;
-}
-
-.hero img {
-  width: 100%;
-  height: auto;
-}
-
-.join {
-  display: none;
+main{
+padding:0.8;
 }
 
 .spotlights section {
