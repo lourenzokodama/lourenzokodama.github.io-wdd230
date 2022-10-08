@@ -2,7 +2,7 @@
 const d = new Date();
 document.getElementById("year").innerHTML = d.getFullYear();
 document.getElementById("time").innerHTML = "Last updated:"+document.lastModified
-document.getElementsByClassName('time')[0].innerHTML = "Last Updated: "+document.lastModified
+
 
 function toggleMenu() {
     var temp = document.getElementsByClassName("toggler")[0]
