@@ -17,7 +17,7 @@ import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=E
     align-items: center;
   }
 
-  main {
+  .main {
     display: grid;
     gap: 1.6rem;
     grid-template-areas:
