@@ -10,9 +10,37 @@
    * Remove the margin in all browsers.
    */
   /* MAIN */
-main {
-  padding: 1.6rem;
-}
+ main {
+    display: grid;
+    gap: 1.6rem;
+    grid-template-areas:
+      "hero  hero  hero  hero"
+      "news  news  news  news"
+      "spot  spot  spot  spot"
+      "join  join  join  join"
+      "event event event weather";
+  }
+
+  .hero {
+    grid-area: hero;
+  }
+
+  .event {
+    grid-area: event;
+  }
+
+  .weather {
+    grid-area: weather;
+  }
+
+  .news-release {
+    grid-area: news;
+  }
+
+  .spotlights {
+    grid-area: spot;
+    display: flex;
+    gap: 1.6rem;
 
 /* PLACEHOLDER STYLES */
 .hero,
@@ -102,37 +130,7 @@ main {
     height: 0; /* 1 */
     overflow: visible; /* 2 */
   }
-   main {
-    display: grid;
-    gap: 1.6rem;
-    grid-template-areas:
-      "hero  hero  hero  hero"
-      "news  news  news  news"
-      "spot  spot  spot  spot"
-      "join  join  join  join"
-      "event event event weather";
-  }
-
-  .hero {
-    grid-area: hero;
-  }
-
-  .event {
-    grid-area: event;
-  }
-
-  .weather {
-    grid-area: weather;
-  }
-
-  .news-release {
-    grid-area: news;
-  }
-
-  .spotlights {
-    grid-area: spot;
-    display: flex;
-    gap: 1.6rem;
+  
   }
   /**
    * 1. Correct the inheritance and scaling of font size in all browsers.
