@@ -11,6 +11,50 @@ import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=E
     --header-font: 'Exo 2', sans-serif;
     --paragraph-font: 'Comfortaa', sans-serif;
 }
+@media screen and (min-width: 48em) {
+  .footer__logo {
+    display: flex;
+    align-items: center;
+  }
+
+  main {
+    display: grid;
+    gap: 1.6rem;
+    grid-template-areas:
+      "hero  hero  hero  hero"
+      "news  news  news  news"
+      "spot  spot  spot  spot"
+      "join  join  join  join"
+      "event event event weather";
+  }
+
+  .hero {
+    grid-area: hero;
+  }
+
+  .event {
+    grid-area: event;
+  }
+
+  .weather {
+    grid-area: weather;
+  }
+
+  .news-release {
+    grid-area: news;
+  }
+
+  .spotlights {
+    grid-area: spot;
+    display: flex;
+    gap: 1.6rem;
+  }
+
+  .join {
+    display: block;
+    grid-area: join;
+  }
+}
 
 /* Random styling for html and body */
 html { background-color: var(--secondary-color); }
