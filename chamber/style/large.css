@@ -1,1 +1,146 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Exo+2:wght@800&display=swap');
+
+:root {
+    --main-color: #2e8b57;
+    --secondary-color: #add8e6;
+    --accent-color: #90ee90;
+    --default-light: #ffffff;
+    --default-dark: #2f2f2f;
+
+    --header-font: 'Exo 2', sans-serif;
+    --paragraph-font: 'Comfortaa', sans-serif;
+}
+
+/* Random styling for html and body */
+html { background-color: var(--secondary-color); }
+body {
+    margin: 0;
+    display: grid;
+    grid-template-columns: auto 80% auto;
+}
+body > * {
+    grid-column: 2;
+}
+.shadow-blocker-1, .shadow-blocker-2 {
+    background-color: var(--secondary-color);
+    position: relative;
+    z-index: 24;
+    width: 100%;
+    height: 100%;
+    grid-column: 1;
+    grid-row: 1 / span 5;
+}
+.shadow-blocker-2 {
+    grid-column: 3;
+}
+
+/* Global Font Styles */
+h1 {
+    font-size: 2.8em;
+}
+h2 {
+    font-size: 1.75em;
+}
+h3 {
+    font-size: 1.25em;
+}
+h4 {
+    font-size: 1.1em;
+}
+h1, h2, h3, h4, th {
+    font-family: var(--header-font);
+}
+p, span, div, li, td, a {
+    font-family: var(--paragraph-font);
+}
+
+
+/* Styles for the header banner */
+#big-banner {
+    position: relative;
+    display: none;
+    background-color: var(--default-dark);
+    border: double;
+    color: var(--default-light);
+    font-weight: bold;
+    padding: 1rem;
+    z-index: 25;
+    grid-template-columns: 30px auto 30px;
+    justify-items: center;
+    align-items: center;
+    grid-gap: 10px;
+}
+#big-banner i:last-child:hover {
+    color: var(--main-color);
+    cursor: pointer;
+}
+
+
+/* Styles for the header and elements inside the header */
+header {
+    z-index: 10;
+    padding: 0.5rem 1rem;
+    position: relative;
+    text-align: center;
+    background-color: var(--main-color);
+    box-shadow: 0 0 10px var(--main-color);
+}
+header > span {
+    display: block;
+    color: var(--secondary-color);
+    padding-bottom: 1rem;
+}
+h1 {
+    color: var(--default-light);
+    margin-bottom: 0.75rem;
+    margin-top: 0.75rem;
+}
+nav {
+    position: sticky;
+    z-index: 5;
+    top: 0;
+}
+nav > ul {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    list-style: none;
+    grid-template-columns: repeat(6,1fr);
+    box-shadow: 0 0 10px var(--default-dark);
+}
+nav > ul .toggler {
+    display: none;
+}
+nav > ul .toggler + li {
+    grid-column: 1;
+}
+nav a {
+    z-index: 8;
+    padding: 1em 0;
+    display: block;
+    margin-right: 0;
+    overflow: hidden;
+    width: calc(100%);
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+    text-decoration: none;
+    height: calc(100% - 2em);
+    color: var(--default-light);
+    background-color: var(--default-dark);
+    box-shadow: 0 0 10px var(--default-dark);
+    transition: padding 0.2s, height 0.2s;
+    height: 18px;
+}
+nav a.at, nav a:active {
+    background-color: var(--main-color);
+    box-shadow: 0 0 10px var(--main-color);
+    z-index: 9;
+}
+nav a:hover {
+    background-color: var(--default-light);
+    box-shadow: 0 0 10px var(--default-light), inset 0 0 10px var(--main-color);
+    color: var(--main-color);
+    z-index: 7;
+}
