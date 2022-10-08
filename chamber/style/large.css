@@ -11,7 +11,7 @@ import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=E
     --header-font: 'Exo 2', sans-serif;
     --paragraph-font: 'Comfortaa', sans-serif;
 }
-@media screen and (min-width: 48em) {
+ 
   .footer__logo {
     display: flex;
     align-items: center;
