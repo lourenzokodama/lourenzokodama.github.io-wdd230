@@ -1,5 +1,5 @@
 
-const input = document.querySelector("#favchap");
+const input = document.querySelector("#textbook");
 const bookList = document.querySelector(".list");
 const inputBtn = document.querySelector("#input__btn");
 
