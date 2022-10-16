@@ -167,7 +167,7 @@ h1 {
     grid-column: 2/3;
     grid-row: 3/4;
   }
-}
+
 nav {
     position: sticky;
     top: 0;
