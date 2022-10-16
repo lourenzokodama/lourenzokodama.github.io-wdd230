@@ -173,7 +173,7 @@ nav {
     top: 0;
 }
 
-ul {
+nav > ul {
     margin: 0;
     padding: 0;
     display: grid;
