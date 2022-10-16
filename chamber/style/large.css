@@ -1,7 +1,7 @@
  import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Exo+2:wght@800&display=swap');
 
 :root {
-    --main-color: #2e8b57;
+    --main-color: rgb(95, 65, 65);
     --secondary-color: #add8e6;
     --accent-color: #90ee90;
     --default-light: #ffffff;
