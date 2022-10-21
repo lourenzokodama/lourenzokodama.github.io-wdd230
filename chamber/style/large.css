@@ -360,7 +360,7 @@ section.forecast h3 {
 .grid-container {
     display: grid;
     gap: 10px;
-    background-color: #2196F3;
+    background-color: rgb(95, 65, 65)3;
     padding: 10px;
   }
   
