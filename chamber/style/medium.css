@@ -3,30 +3,4 @@ body {
     grid-template-columns: auto 90% auto;
 }
 
-  .hero {
-    grid-area: hero;
-  }
-
-  .event {
-    grid-area: event;
-  }
-
-  .weather {
-    grid-area: weather;
-  }
-
-  .news-release {
-    grid-area: news;
-  }
-
-  .spotlights {
-    grid-area: spot;
-    display: flex;
-    gap: 1.6rem;
-  }
-
-  .join {
-    display: block;
-    grid-area: join;
-  }
-
+ 
