@@ -481,40 +481,6 @@ footer a:hover {
     }
 }
     
-@media screen and (max-width: 430px) {
-    #brk1 {
-        display: block;
-    }
-    section.contact-info ul {
-        margin-left: calc(2.14285714em + (30% - 70px));
-        margin-bottom: 15px;
-    }
-    section.contact-info h3,
-    section.contact-info .social-links {
-        margin-left: calc(30% - 70px);
-    }
-    .five-day {
-        grid-template-columns: repeat(6, 1fr);
-    }
-    .five-day section {
-        grid-column: span 2;
-    }
-    .five-day section:nth-child(1),
-    .five-day section:nth-child(2) {
-        grid-column: span 3;
-    }
-    div.hero {
-        max-height: 350px;
-    }
-    div.hero section {
-        position: relative;
-        background: rgba(255,255,255,0.8);
-        border: solid 1px var(--default-dark);
-        top: -84px;
-        left: 0;
-        margin: 0 auto;
-    }
-}
     
 @media screen and (max-width: 400px) {
     @keyframes come-in {
