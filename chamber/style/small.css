@@ -5,6 +5,32 @@ body {
 header {
     box-shadow: 0 0 10px var(--default-dark);
 }
+
+nav ul {
+    grid-template-columns: 1fr;
+}
+nav ul .toggler {
+    display: block;
+}
+nav li.toggler a {
+    background-color: var(--default-light);
+    box-shadow: 0 0 10px var(--default-light), inset 0 0 10px var(--main-color);
+    color: var(--main-color);
+}
+nav li.toggler a:hover {
+    cursor: pointer;
+}
+nav li.hide a {
+    color: var(--default-light);
+    background-color: var(--default-dark);
+    box-shadow: 0 0 10px var(--default-dark);
+}
+nav ul li.hide ~ * a {
+    /* display: none; */
+    padding: 0;
+    height: 0;
+}
+
 :root {
     --main-color:rgb(95, 65, 65);
     --secondary-color: #add8e6;
