@@ -1,6 +1,8 @@
 body {
     grid-template-columns: auto 95% auto;
 }
+
+
 :root {
     --main-color:rgb(95, 65, 65);
     --secondary-color: #add8e6;
@@ -109,6 +111,10 @@ nav > ul {
     list-style: none;
     grid-template-columns: repeat(6,1fr);
     box-shadow: 0 0 10px var(--default-dark);
+}
+
+nav li.toggler a:hover {
+    cursor: pointer;
 }
 nav > ul .toggler {
     display: none;
