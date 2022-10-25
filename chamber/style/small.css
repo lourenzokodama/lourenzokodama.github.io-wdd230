@@ -15,7 +15,7 @@ nav ul .toggler {
     display: block;
 }
 nav li.toggler a {
-    background-color: var(--default-light);
+    background-color:#5f4141;
     box-shadow: 0 0 10px var(--default-light), inset 0 0 10px var(--main-color);
     color: var(--main-color);
 }
