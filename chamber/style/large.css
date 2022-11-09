@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Exo+2:wght@800&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
 
 :root {
     --main-color:#5f4141;
@@ -6,7 +11,8 @@
     --accent-color: #90ee90;
     --default-light: #ffffff;
     --default-dark: #2f2f2f;
-
+        --main-radius:5px;
+        --main-padding:5px;
     --header-font: 'Exo 2', sans-serif;
     --paragraph-font: 'Comfortaa', sans-serif;
 }
@@ -231,14 +237,89 @@ div.social-links .fa-facebook-square:hover {
     cursor: pointer;
     color: royalblue;
 }
+
 div.social-links .fa-flickr:hover {
     cursor: pointer;
     background: linear-gradient(90deg, royalblue, deeppink);
     background-clip: padding-box;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+
+.container {
+
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr  1fr 1fr ;
+    grid-template-rows: 0.2fr 1.5fr 1.2fr 0.8fr;
+    grid-template-areas: 
+    "nav nav nav nav "
+    "sidebar main main main"
+    "sidebar  content1 content2 content3"
+    "sidebar footer footer footer";
+    grid-gap: 0.2rem;
+    }
+
+nav {
+ background: rgb(51, 39, 19);
+ grid-area: nav;
+ border-radius: var(--main-radius);
+ padding-top: var(--main-padding);
 }
 
+main {
+    background: rgb(12, 133, 92);
+      grid-area: main;
+      border-radius: var(--main-radius);
+      padding-top: var(--main-padding);
+ }
+
+ #sidebar {
+   background:rgb(24, 155, 155) ;
+   grid-area: sidebar;
+   border-radius: var(--main-radius);
+   padding-top: var(--main-padding);
+ }
+
+ #content1 {
+   background: rgb(175, 14, 46);
+   grid-area:content1;
+   border-radius: var(--main-radius);
+   padding-top: var(--main-padding);
+ }
+ #content2 {
+  background: rgb(13, 148, 158);
+  grid-area:content2;
+  border-radius: var(--main-radius);
+  padding-top: var(--main-padding);
+}
+ #content3 {
+   background:rgb(39, 92, 94);
+   grid-area: content3;
+   border-radius: var(--main-radius);
+   padding-top: var(--main-padding);
+}
+ footer {
+    background: rgb(102, 3, 44);
+    grid-area: footer;
+    border-radius: var(--main-radius);
+    padding-top: var(--main-padding);
+ }
+
+@media only screen and (max-width: 550px) {
+   .container{
+      grid-template-columns: 1fr;
+      grid-template-rows: 0.4fr 0.4fr 2.2fr 1.2fr 1.2fr 1fr;
+      grid-template-areas: 
+      "nav"
+      "sidebar"
+      "main"
+      "content1"
+      "content2"
+      "content3"
+      "footer";
+   } 
+}
+   
 div.hero {
     z-index: 1;
     position: relative;
