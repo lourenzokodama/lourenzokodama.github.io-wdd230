@@ -1,4 +1,5 @@
 @media only screen and (min-width: 32.5em){
+}
 :root {
     --main-color:rgb(95, 65, 65);
     --secondary-color: #add8e6;
@@ -18,4 +19,4 @@ body {
 #typo-wrapper {
     grid-template-columns: 1fr 1fr;
 }
-}
+
