@@ -1,4 +1,21 @@
+@media only screen and (min-width: 32.5em) {
+    h1{
+        font-size: 3em;
+      }  
 
+    h2 {
+        font-size: 2em;
+    }   
+    
+    header, footer {
+        border-radius: 10px;
+    }
+
+    .site-logo {
+        max-width: 90px;
+        flex: right;
+      }
+}
 :root {
     --main-color:rgb(95, 65, 65);
     --secondary-color: #add8e6;
