@@ -74,12 +74,110 @@
                     href="https://unsplash.com/s/photos/sky-clouds?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></span>
         </div>
            
+ <section class="hero">
+        <picture class="hero">
+                <source media="(max-width: 500px)"
+                        srcset="images/wdd230small.webp">
+                <source media="(max-width: 600px)"
+                        srcset="images/wdd230medium.webp">
+                <source media="(max-width: 2000px)"
+                        srcset="images/wdd230-org.webp">
+                <img src="images/wdd230-org.webp" alt="original-picture">
+        </picture>
+      </section>
+     
+      <div class="event-class">
+        <h3>Events</h3>
+        <picture id="event-icon">
+          <img class="event-image" src="images/bike.jpg" alt="icon of expected weather" />
+        </picture>
+        <p id="general-class">Find the latest events</p>
+      </div>
+      <div class="weather">
+        <h3>Weather Reports</h3>
+        <picture id="event-icon">
+          <img class="event-image" src="images/weather.jpg" alt="icon of expected weather" />
+        </picture>
+        <p id="general-class">Latest weather in Central Oregon</p>
+        <p>Current Temperature: <span id="temp"></span></p>
+        <p>Wind Speed: <span id="speed"></span></p>
+        <p>Wind Chill: <span id="chill"></span></p>
+      </div>
+      <div class="news">News
+        <h3>Event</h3>
+        <picture id="event-icon">
+          <img class="event-image" src="images/news.jpg" alt="icon of expected weather" />
+        </picture>
+        <p id="general-class">Find the latest news here. We keep it relevant </p>
+      </div>
+      <div class="join">
+        <h3>Join</h3>
+        <picture id="event-icon">
+          <img class="event-image" src="images/trees.png" alt="icon of expected weather" />
+        </picture>
+        <p id="general-class">Join our chamber. All are welcome</p>
+      </div>
+      <div class="spotlight">
+        <div>
+          <h3>Spotlight 1</h3>
+        <picture id="event-icon">
+          <img class="event-image" src="images/trees.png" alt="icon of expected weather" />
+        </picture>
+        <p id="general-class">Guess what's happening now?</p>
+        </div>
+          
+
+       
+
+        <div>
+          <h3>Spotlight 2</h3>
+        <picture id="event-icon">
+          <img class="event-image" src="images/trees.png" alt="icon of expected weather" />
+        </picture>
+        <p id="general-class">Local Lore</p>
+        </div>
+        <div id="spot3">
+          <h3>Spotlight 3</h3>
+        <picture id="event-icon">
+          <img class="event-image" src="images/trees.png" alt="icon of expected weather" />
+        </picture>
+        <p id="general-class">Get updates</p>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+     
+        <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d47366.34469339145!2d-111.87517579490891!3d42.098977407066165!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1602872714788!5m2!1sen!2sus"
+                allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+     
+      <div class="address">
+        <label class="address1">123 Windsor Dr.</label>
+        <label class="address2">Bend, OR 97701</label>
+      </div>
+      <div class="find-us">
+        <label class="email">support@bendcoc.com</label>
+        <label class="phone">123-456-789</label>
+        <label class="map">Location</label>
+      </div>
+
+      <div class="about">
+        <label class="class-project">&copy; </label>
+        <div class="seperator">|</div>
+        <label class="class-project">WDD 230 Project - </label>
+        <div class="seperator">|</div>
+        <label class="developer">Lourenzo kodama</label>
+        <div class="seperator">|</div>
+        <label>Last Modification: <a id= "updateDate"></a></label>
+
+        <script src="scripts/scripts.js"></script>
+        <script src="scripts/windchill.js"></script>
+        <script src="scripts/lazyloading.js"></script>
 
     
         <section class="contact-info">
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d47366.34469339145!2d-111.87517579490891!3d42.098977407066165!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1602872714788!5m2!1sen!2sus"
-                allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+          
             <h3>Contact Information</h3>
             <ul class="fa-ul">
                 <li><i class="fa-li fa fa-location-arrow"></i>123 S<sup>th</sup> Somewhere St.<span
@@ -87,22 +185,15 @@
                 <li><i class="fa-li fa fa-phone"></i>(208) 123-4567</li>
                 <li><i class="fa-li fa fa-envelope"></i>info@film-or-not.org</li>
             </ul>
-            <div class="social-links">
-                <a href="https://currents.google.com/" target="_blank" class="fa fa-google-plus-square"></a>
-                <a href="https://facebook.com/" target="_blank" class="fa fa-facebook-square"></a>
-                <a href="https://flickr.com/" target="_blank" class="fa fa-flickr"></a>
-            </div>
-        </section>
     </main>
     <footer>
        &copy;<span class="year"></span> lourenzo kodama | <span>wdd-230</span>
         <span class="time">
     </footer>
-    <div id="too-small">
-        <h3>Your screen size is too small to view this page</h3>
-    </div>
+  
     <script src="scripts/data.js"></script>
-</body>
-
+   </div>
+    </footer>
+  </body>
   
 </html>
