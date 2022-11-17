@@ -1,3 +1,13 @@
+ html {
+    --color1: #ffffff;
+    --color2: #ffffff;
+    --color3: #0d2809;
+    --color4: #2d4434;
+    --color5: #ffffff;
+    --color6: #1a3d03;
+  
+    background-color: var(--color1);
+  }
 * {
     margin: 0;
     padding: 0;
