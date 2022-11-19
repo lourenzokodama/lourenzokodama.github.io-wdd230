@@ -11,8 +11,6 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    padding: 0.2rem;
   }
    :root {
     --main-color:#5f4141;
