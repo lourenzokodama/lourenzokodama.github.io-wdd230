@@ -1,4 +1,4 @@
-// Last Modified
+
 let currentDate = document.lastModified;
 document.querySelector('#lastModified').textContent = currentDate;
 
