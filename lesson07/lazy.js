@@ -1,7 +1,3 @@
-const d = new Date();
-document.getElementById("year").innerHTML = d.getFullYear();
-document.getElementById("time").innerHTML = "Last updated:"+document.lastModified
-
 
 const images = document.querySelectorAll('img');
 const options = { threshold: 0.5, rootMargin: '0px 0px -100px 0px' };
