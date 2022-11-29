@@ -1,4 +1,4 @@
-const requestURL = 'https://ianashby.github.io/WDD230/chamber/data.json';
+
 const list = document.querySelector('#list');
 const table = document.querySelector('.table');
 const grid = document.querySelector('#grid');
