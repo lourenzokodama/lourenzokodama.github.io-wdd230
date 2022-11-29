@@ -1,7 +1,7 @@
     "businesses": [
         {
-            "name": "hoffline",
-            "type": "Clothing & Accessories",
+            "name": "Utah State University",
+            "type": "University",
             "location": {
                 "address1": "865 Main Street",
                 "city": "Salt Lake City",
@@ -9,11 +9,11 @@
                 "zip_code": "8601"
             },
             "phone": "123-456-7890",
-            "website": "https://www.hoffline.org",
-            "logo": "images/"
+            "website": "https://www.utahstate.org",
+            "logo": "images/diretory0/b5811406-e3c9-4cd2-88f1-6eac0e477b34_1200x521.webp"
         },
         {
-            "name": "megaplex", 
+            "name": "UtahJazz", 
             "type": "Entertainment",
             "location": {
                 "address1": "123 Pike Place",
@@ -22,21 +22,21 @@
                 "zip_code": "8701"
             },
             "phone": "123-456-7890",
-            "website": "https://www.megaplex.com",
-            "logo": "images/directory/"
+            "website": "https://www.utahjazz.com",
+            "logo": "images/diretory0/b5811406-e3c9-4cd2-88f1-6eac0e477b34_1200x521.webp"
         },
         {
-            "name": " Maci-Store",
-            "type": "Clothing & Accessories",
+            "name": " Draper",
+            "type": "place",
             "location": {
-                "address1": "55 Second Street",
+                "address1": "55 draper Street",
                 "city": "Salt Lake City",
                 "state": "UT",
                 "zip_code": "10001"
             },
             "phone": "123-456-7890",
-            "website": "http://www.Maci-Store.com",
-            "logo": "images/directory/.webp"
+            "website": "http://www.draper.com",
+            "logo": "images/directory/draper.webp"
         },
         {
            "name": " MacStore",
